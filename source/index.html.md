@@ -2,10 +2,10 @@
 title: API Reference
 
 
-
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
+  - <a style="cursor:pointer"id="sign-up">Sign Up for a Developer Key</a>
   - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+
 
 includes:
 
@@ -15,6 +15,16 @@ search: true
 # Introduction
 
 Welcome to the Bible API! You can use our API to access restFUL API endpoints, which can get information on various Books, Chapters, and verses in our database.
+
+
+# Authorization
+
+In order to use this api, you will need to get a developer key. Click the link at the bottom of the nav bar to sign up for a developer key
+### Usage
+Use the `?auth=` parameter like the following
+
+`http://api.madisonehlers.com/bible/<endpoint>?auth=<your_api_key>`
+
 
 # Bible Versions
 
